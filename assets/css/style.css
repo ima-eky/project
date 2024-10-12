@@ -271,7 +271,8 @@
 
 .about-area{
     display:flex;
-    align-items:center
+    align-items:center;
+    background-color:  #f4f4f4;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px){.about-area{display:block}}@media (max-width: 575px){.about-area{display:block}}@media only screen and (min-width: 576px) and (max-width: 767px){.about-area{display:block}}.about-area .about-img{background-image:url(../img/gallery/about-img1.png);background-size:100%;background-size:cover;background-repeat:no-repeat;height:700px;width:50%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:end;-webkit-box-align:end;-ms-flex-align:end;align-items:end}@media (max-width: 575px){.about-area .about-img{width:100%;height:500px}}@media only screen and (min-width: 576px) and (max-width: 767px){.about-area .about-img{width:100%;height:550px}}@media only screen and (min-width: 768px) and (max-width: 991px){.about-area .about-img{width:100%;height:600px}}
 
