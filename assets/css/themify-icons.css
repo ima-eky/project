@@ -297,9 +297,11 @@
 }
 .ti-arrow-top-right:before {
 	content: "\e65a";
+	color: #FEC619;
 }
 .ti-arrow-top-left:before {
 	content: "\e65b";
+	color: #FEC619;
 }
 .ti-arrow-circle-up:before {
 	content: "\e65c";
