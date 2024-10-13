@@ -526,3 +526,10 @@ html {
 .header-sticky.sticky-bar .main-menu ul li a {
     color: white !important
 }
+
+@media (max-width: 600px) {
+    header .logo .logo-img{
+        width: 150px;
+        height: 57px;
+    }
+}
