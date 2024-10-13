@@ -24,6 +24,21 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    window.scrollTo({
+                        top: targetElement.getBoundingClientRect().top + window.scrollY - 100, // Adjust based on your header height
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
 </head>
 <body>
     <!-- ? Preloader Start -->
@@ -58,19 +73,16 @@
                                 <nav> 
                                     <ul id="navigation">                                                                                                                                     
                                         <li><a href="index.html">Home</a></li>
-                                        <li><a href="services.html">About</a></li>
-                                        <li><a href="#">Services</a>
+                                        <li><a href="#about">About</a></li>
+                                        <li><a href="#services">Services</a>
                                             <ul class="submenu">
-                                                <li><a href="about.html">Research & Surveys </a></li>
-                                                <li><a href="elements.html">Opinion Polls</a></li>
-                                                <li><a href="elements.html">Monitoring & Evaluation</a></li>
+                                                <li><a href="#surveys">Research & Surveys </a></li>
+                                                <li><a href="#poll">Opinion Polls</a></li>
+                                                <li><a href="#poll">Monitoring & Evaluation</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="blog.html">Insights</a>
-                                            <ul class="submenu">
-                                                <li><a href="blog.html">Blog</a></li>
-                                                <li><a href="blog_details.html">Past Work</a></li>
-                                            </ul>
+                                        <li><a href="#insights">Insights</a>
+                                        
                                         </li>
                                         <li><a href="contact.html">Contact Us</a></li>
                                     </ul>
@@ -128,7 +140,7 @@
             
         </div>
         <!-- left Contents -->
-        <div class="about-details">
+        <div class="about-details" id="about">
             <div class="right-caption">
                 <!-- Section Tittle -->
                 <div class="section-tittle mb-50">
@@ -253,18 +265,18 @@
     </div>
     <!-- About Area End-->
      <!--? Services Area Start -->
-     <section class="services-section section-padding40 fix">
+     <section class="services-section section-padding40 fix" id="services">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-10 col-lg-10 col-md-12">
                     <!-- Section Tittle -->
                     <div class="section-tittle text-center mb-70">
-                        <h2>Our Service</h2>
+                        <h2>Our Services</h2>
                         <p>We bring ideas to life with the skills and creativity of our very talented team.</p>
                     </div> 
                 </div>
             </div>
-            <div class="services-active">
+            <div class="services-active" id="surveys">
                 <div class="single-services section-over1 text-center">
                     <div class="services-img test-img">
                         <img src="assets/img/gallery/s4.png" alt="">
@@ -275,7 +287,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="single-services section-over1 text-center">
+                <div class="single-services section-over1 text-center" id="poll">
                     <div class="services-img test-img">
                         <img src="assets/img/gallery/s2.jpeg" alt="">
                         <div class="services-caption">
@@ -374,7 +386,7 @@
     </section>
     <!--? Testimonial Area End -->
     <!-- Home Blog Start -->
-    <section class="home-blog section-padding40 fix">
+    <section class="home-blog section-padding40 fix" id="insights">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="cl-xl-7 col-lg-8 col-md-10">
@@ -542,7 +554,7 @@
     <!-- Want To work End -->
 </main>
 <footer>
-    <div class="footer-wrapper section-bg2 pl-100"  data-background="assets/img/gallery/footer-bg.png">
+    <div class="footer-wrapper section-bg2 pl-100"  data-background="">
         <!-- Footer Start-->
         <div class="footer-area footer-padding">
             <div class="container-fluid">
@@ -556,14 +568,15 @@
                                 </div>
                                 <div class="footer-tittle">
                                     <div class="footer-pera">
-                                        <p>The automated process starts as soon as your clothes go into the machine.</p>
+                                        <p>At ISCL, we transform insights into action, ensuring that your business strategies are data-driven and effective.</p>
                                     </div>
                                 </div>
                                 <!-- social -->
                                 <div class="footer-social">
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="https://bit.ly/sai4ull"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                    <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+                                    <a href="https://www.linkedin.com/company/insights-strategy-consulting"  target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="https://www.facebook.com/profile.php?id=61560471916580"  target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/insightandstrategy/" target="_blank" rel="noopener noreferrer"> <i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -573,11 +586,12 @@
                             <div class="footer-tittle">
                                 <h4>Our solutions</h4>
                                 <ul>
-                                    <li><a href="#">Design & creatives</a></li>
-                                    <li><a href="#">Telecommunication</a></li>
-                                    <li><a href="#">Restaurant</a></li>
-                                    <li><a href="#">Programing</a></li>
-                                    <li><a href="#">Architecture</a></li>
+                                    <li><a href="#">Surveys and Data Analytics</a></li>
+                                    <li><a href="#">Strategic Planning</a></li>
+                                    <li><a href="#">Social Business set-up </a></li>
+                                    <li><a href="#">Proposal Development</a></li>
+                                    <li><a href="#">Outcome Harvesting </a></li>
+                                    <li><a href="#">And more...</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -588,10 +602,11 @@
                                 <h4>Company</h4>
                                 <ul>
                                     <li><a href="#">About</a></li>
-                                    <li><a href="#">Review</a></li>
+                                    <li><a href="#">Services</a></li>
                                     <li><a href="#">Insights</a></li>
-                                    <li><a href="#">Programing</a></li>
-                                    <li><a href="#">Carrier</a></li>
+                                    <li><a href="#">Thematic Focus</a></li>
+                                    <li><a href="#">Values</a></li>
+                                    <li><a href="#">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -601,9 +616,9 @@
                             <div class="footer-tittle">
                                 <h4>Contact us</h4>
                                 <ul>
-                                    <li><a href="#">consulto98@gmail.com</a></li>
-                                    <li><a href="#">76/A, Green road, NYC</a></li>
-                                    <li class="number"><a href="#">(80) 783 367-3904</a></li>
+                                    <li><a href="#">info@iscl.org</a></li>
+                                    <li><a href="#">Abuja, Nigeria.</a></li>
+                                    <li class="number"><a href="#">+(234) 0803 082 0191</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -611,25 +626,6 @@
                 </div>
             </div>
         </div>
-        <!-- footer-bottom area -->
-        <div class="footer-bottom-area">
-            <div class="container-fluid">
-                <div class="footer-border">
-                    <div class="row align-items-center">
-                        <div class="col-xl-12 ">
-                            <div class="footer-copy-right">
-                                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <!-- Footer End-->
-      </div>
-  </footer>
   <!-- Scroll Up -->
   <div id="back-top" >
     <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>

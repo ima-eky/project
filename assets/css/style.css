@@ -1,4 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600;700;800&family=Raleway:wght@400;500;600;700;800;900&display=swap");
+html {
+    scroll-behavior: smooth;
+}
+
+#about {
+    scroll-margin-top: 300px; /* Adjust this based on your header height */
+}
+
+#insights {
+    scroll-margin-top: 70px;
+}
+
+#contact {
+    scroll-margin-top: 70px;
+}
+
 .hero-img-container {
     width: 90%; /* Adjust to control overall space */
     margin: 0 auto; /* Center it if needed */
