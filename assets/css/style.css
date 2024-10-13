@@ -2,6 +2,10 @@
 html {
     scroll-behavior: smooth;
 }
+.home-blog .single-blogs .blog-img img{
+    height: 260px;
+    max-height: 270px;
+}
 
 #about {
     scroll-margin-top: 300px; /* Adjust this based on your header height */
@@ -59,7 +63,6 @@ html {
     height: 100vh; /* Adjust to control height */
     overflow: hidden;
 }
-
 .banner-overlay {
     position: absolute; /* Positioning the overlay */
     top: 0;
@@ -69,6 +72,7 @@ html {
     background-color: rgba(0, 0, 64, 0.1);
     z-index: 1;
 }
+
 
 .responsive-banner {
     width: 100%; /* Makes the image take the full width of its container */
@@ -474,9 +478,7 @@ html {
         border-radius:13px
     }
     .services-section .single-services .test-img {
-        height: 425px;
         max-height: 425px;
-        
     }
     .services-section .single-services .services-img img{ 
         width:100%
@@ -506,7 +508,7 @@ html {
         font-size:22px
     }
     .testimonial-area .founder-text p{
-        color:#646D77;
+        color:#002D55;
         font-size:14px;
     }
     @media (max-width: 575px){.testimonial-area .founder-text p{font-size:12px}}.h1-testimonial-active button.slick-arrow{position:absolute;border:0;padding:10px;cursor:pointer;background:none;-webkit-transition:.4s;-moz-transition:.4s;-o-transition:.4s;transition:.4s;right:77px;margin:0 10px;font-size:20px;color:rgba(253,143,95,0.3);bottom:0px;z-index:1;transform:rotate(-45deg) !important}.h1-testimonial-active button.slick-arrow:hover{color:#024089}.h1-testimonial-active button.slick-next{right:-10px;transform:rotate(45deg) !important}.h1-testimonial-active.dot-style .slick-dots{bottom:5%;right:41px;position:absolute}.h1-testimonial-active.dot-style .slick-dots li{display:inline-block}.h1-testimonial-active.dot-style .slick-dots button{margin-right:7px;cursor:pointer;background:none;color:#000;border:0;font-size:16px;padding:0}.h1-testimonial-active.dot-style .slick-active button{color:#024089}.slick-initialized .slick-slide{outline:0}@media only screen and (min-width: 768px) and (max-width: 991px){.footer-wrapper{padding:0}}@media only screen and (min-width: 576px) and (max-width: 767px){.footer-wrapper{padding:0}}@media (max-width: 575px){.footer-wrapper{padding:0}}
