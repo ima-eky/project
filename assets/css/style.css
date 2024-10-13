@@ -529,7 +529,7 @@ html {
 
 @media (max-width: 600px) {
     header .logo .logo-img{
-        width: 150px;
-        height: 57px;
+        width: 140px;
+        height: 45px;
     }
 }
