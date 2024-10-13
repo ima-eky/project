@@ -5,6 +5,10 @@
 .white-color { color: #ffffff; }
 .black-color { color: #16161a; }
 .theme-color { color: #c6a16e; } /* Gold text color */
+/* In your main CSS file */
+body {
+  font-family: 'GOOD TIMES RG', sans-serif; /* Replace with the font defined in your branding guidelines */
+}
 
 .boxed-btn {
     background: #FEC619; /* Initial button color */
@@ -32,7 +36,7 @@
   .border-btn:hover::before { transform: scaleY(1); }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: 'GOOD TIMES RG', sans-serif;
     color: #0b1c39;
     margin-top: 0px;
     font-weight: 500;
