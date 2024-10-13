@@ -78,6 +78,15 @@ html {
     top: 0;
     left: 0;
 }  
+
+.banner-caption {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #FFC107;
+}
 .testimonial-area {
     background-color: #FFCA28;    
     padding: 50px 0; 
@@ -90,6 +99,37 @@ html {
 .wantToWork-area {
     background-color: rgba(2, 64, 137, 0.05);
 }
+.banner-heading {
+    font-size: 55px; 
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 1.1;
+    color: #FFC107;
+    letter-spacing: 1px;
+}
+
+.banner-subheading {
+    font-size: 25px; 
+    color: #FFFFFF;
+}
+@media (max-width: 768px) {
+    .banner-heading {
+        font-size: 40px; /* Smaller font size for smaller screens */
+    }
+    .banner-subheading {
+        font-size: 18px; /* Adjust subheading size */
+    }
+}
+
+@media (max-width: 576px) {
+    .banner-heading {
+        font-size: 30px; /* Further adjustment for mobile */
+    }
+    .banner-subheading {
+        font-size: 16px; /* Adjust subheading size */
+    }
+}
+
 .white-bg{background:#ffffff}
 .gray-bg{background:#F5F9FB}
 .gray-bg{background:#f7f7fd}
