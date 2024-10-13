@@ -114,19 +114,19 @@ html {
 }
 @media (max-width: 768px) {
     .banner-heading {
-        font-size: 40px; /* Smaller font size for smaller screens */
+        font-size: 45px;
     }
     .banner-subheading {
-        font-size: 18px; /* Adjust subheading size */
+        font-size: 20px; 
     }
 }
 
 @media (max-width: 576px) {
     .banner-heading {
-        font-size: 30px; /* Further adjustment for mobile */
+        font-size: 35px; /* Further adjustment for mobile */
     }
     .banner-subheading {
-        font-size: 16px; /* Adjust subheading size */
+        font-size: 18px; /* Adjust subheading size */
     }
 }
 
@@ -237,7 +237,7 @@ html {
             padding:39px 19px;
             display:block;
             font-size:16px;
-            -webkit-transition:.3s;-moz-transition:.3s;-o-transition:.3s;transition:.3s;text-transform:capitalize}@media only screen and (min-width: 992px) and (max-width: 1199px){.main-header .main-menu ul li a{padding:39px 15px}}.main-header .main-menu ul li:hover>a{color:#024089}.main-header .main-menu ul ul.submenu{position:absolute;width:170px;background:#fff;left:0;top:120%;visibility:hidden;opacity:0;box-shadow:0 0 10px 3px rgba(0,0,0,0.05);padding:17px 0;border-top:5px solid #024089;-webkit-transition:.3s;-moz-transition:.3s;-o-transition:.3s;transition:.3s}.main-header .main-menu ul ul.submenu>li{margin-left:7px;display:block}.main-header .main-menu ul ul.submenu>li>a{padding:6px 10px !important;font-size:16px;color:#1D2547;font-weight:700;text-transform:capitalize}.main-header .main-menu ul ul.submenu>li>a:hover{color:#024089;background:none}.main-header ul>li:hover>ul.submenu{visibility:visible;opacity:1;top:100%}.header-sticky.sticky-bar{background:#fff}.header-sticky.sticky-bar.sticky .main-menu ul li a{padding:20px 20px !important}@media only screen and (min-width: 768px) and (max-width: 991px){.header-sticky.sticky-bar.sticky{padding:15px 0px}}@media only screen and (min-width: 576px) and (max-width: 767px){.header-sticky.sticky-bar.sticky{padding:15px 0px}}@media (max-width: 575px){.header-sticky.sticky-bar.sticky{padding:15px 0px}}.mobile_menu{position:absolute;right:0px;width:100%;z-index:99}.mobile_menu .slicknav_menu{background:transparent;margin-top:0px !important}.mobile_menu .slicknav_menu .slicknav_btn{top:-33px}.mobile_menu .slicknav_menu .slicknav_btn .slicknav_icon-bar{background-color:#024089 !important}.mobile_menu .slicknav_menu .slicknav_nav{margin-top:9px !important}.mobile_menu .slicknav_menu .slicknav_nav a:hover{background:transparent;color:#024089}.mobile_menu .slicknav_menu .slicknav_nav a{font-size:15px;padding:7px 10px}.mobile_menu .slicknav_menu .slicknav_nav 
+            -webkit-transition:.3s;-moz-transition:.3s;-o-transition:.3s;transition:.3s;text-transform:capitalize}@media only screen and (min-width: 992px) and (max-width: 1199px){.main-header .main-menu ul li a{padding:39px 15px}}.main-header .main-menu ul li:hover>a{color:#024089}.main-header .main-menu ul ul.submenu{position:absolute;width:170px;background:#fff;left:0;top:120%;visibility:hidden;opacity:0;box-shadow:0 0 10px 3px rgba(0,0,0,0.05);padding:17px 0;border-top:5px solid #024089;-webkit-transition:.3s;-moz-transition:.3s;-o-transition:.3s;transition:.3s}.main-header .main-menu ul ul.submenu>li{margin-left:7px;display:block}.main-header .main-menu ul ul.submenu>li>a{padding:6px 10px !important;font-size:16px;color:#1D2547;font-weight:700;text-transform:capitalize}.main-header .main-menu ul ul.submenu>li>a:hover{color:#024089;background:none}.main-header ul>li:hover>ul.submenu{visibility:visible;opacity:1;top:100%}.header-sticky.sticky-bar{background:#fff}.header-sticky.sticky-bar.sticky .main-menu ul li a{padding:20px 20px !important}@media only screen and (min-width: 768px) and (max-width: 991px){.header-sticky.sticky-bar.sticky{padding:15px 0px}}@media only screen and (min-width: 576px) and (max-width: 767px){.header-sticky.sticky-bar.sticky{padding:15px 0px}}@media (max-width: 575px){.header-sticky.sticky-bar.sticky{padding:15px 0px}}.mobile_menu{position:absolute;right:0px;width:100%;z-index:99}.mobile_menu .slicknav_menu{background:transparent;margin-top:0px !important}.mobile_menu .slicknav_menu .slicknav_btn{top:-33px}.mobile_menu .slicknav_menu .slicknav_btn .slicknav_icon-bar{background-color:white !important}.mobile_menu .slicknav_menu .slicknav_nav{margin-top:9px !important}.mobile_menu .slicknav_menu .slicknav_nav a:hover{background:transparent;color:#024089}.mobile_menu .slicknav_menu .slicknav_nav a{font-size:15px;padding:7px 10px}.mobile_menu .slicknav_menu .slicknav_nav 
 .slicknav_item a{padding:0 !important}
 .mobile_menu .slicknav_menu .slicknav_nav .slicknav_arrow{color:#024089}
 
