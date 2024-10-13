@@ -57,13 +57,17 @@ html {
     position: relative; /* Allows positioning of inner elements if needed */
     overflow: hidden; /* Hides overflow for clean edges */
     height: 100vh; /* Adjust to control height */
+    overflow: hidden;
 }
 
 .responsive-banner {
     width: 100%; /* Makes the image take the full width of its container */
     height: 100%; /* Makes the image take the full height of its container */
     object-fit: cover;
-}
+    position: absolute;
+    top: 0;
+    left: 0;
+}  
 .testimonial-area {
     background-color: #FFCA28;    
     padding: 50px 0; 
@@ -178,7 +182,7 @@ html {
             z-index:1
         }
         .main-header .main-menu ul li a{
-            color:#024089;
+            color:#fff;
             font-weight:600;
             padding:39px 19px;
             display:block;
