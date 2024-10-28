@@ -6,6 +6,9 @@ html {
     margin-left: 1px;
     margin-right: 1px;
 }
+.mr-2{
+    margin-right:2px
+}
 .goalbtn{
         background-color: #0D4E9D ; /* Background color */
         color: white; /* Text color */
@@ -16,6 +19,12 @@ html {
         cursor: pointer; /* Pointer cursor on hover */
         transition: background-color 0.3s; /* Smooth transition for background color */
     
+}
+.single-value {
+    border: 1px solid #024089; 
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 8px;
 }
 .home-blog .single-blogs .blog-img img{
     height: 260px;
