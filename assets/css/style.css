@@ -6,6 +6,35 @@ html {
     margin-left: 1px;
     margin-right: 1px;
 }
+.clientele {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+.marquee {
+    overflow: hidden; /* Hide overflowing content */
+    white-space: nowrap; /* Keep content on one line */
+    background-color: white; /* Background color for visibility */
+    padding: 20px 0; /* Padding for spacing */
+    width: 100vw;
+    height:180px;
+    max-height: 200px;
+}
+
+.marquee-content {
+    display: inline-block; /* Align logos horizontally */
+    animation: marquee 20s linear infinite; /* Animation for scrolling effect */
+    width: 100%;
+}
+
+.client-logo {
+    max-height: 100px; /* Limit logo height */
+    max-width: 100%; /* Responsive width */
+    margin: 0 30px; /* Space between logos */
+}
+
+@keyframes marquee {
+    0% { transform: translateX(0); } /* Start at 0 */
+    100% { transform: translateX(-50%); } /* Move left by 50% */
+}
 .mr-2{
     margin-right:2px
 }
