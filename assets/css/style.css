@@ -122,7 +122,7 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 64, 0.4);
+    background-color: rgba(0, 0, 64, 0.45);
     z-index: 1;
 }
 
@@ -142,7 +142,8 @@ html {
     left: 50%; 
     transform: translate(-50%, -50%);
     text-align: center;
-    color: #FFC107;
+    color: #FEC619;
+    font-weight: bolder;
 }
 .testimonial-area {
     background-color: #FFCA28;    
@@ -161,13 +162,14 @@ html {
     font-weight: 700;
     margin-bottom: 10px;
     line-height: 1.1;
-    color: #FFC107;
+    color: #FFF;
     letter-spacing: 1px;
 }
 
 .banner-subheading {
     font-size: 25px; 
-    color: #FFFFFF;
+    color: #FFC107;
+    font-weight: bold;
 }
 @media (max-width: 768px) {
     .banner-heading {
