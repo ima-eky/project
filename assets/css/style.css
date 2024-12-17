@@ -267,10 +267,10 @@ banner-caption::after {
     40% {
         opacity: 1; /* Stay fully visible for a while */
     }
-    50% {
+    60% {
         opacity: 0; /* Fade out */
     }
-    60% {
+    65% {
         opacity: 0; /* Stay fully faded out */
     }
     100% {
@@ -543,7 +543,9 @@ banner-caption::after {
     font-weight:700;
     text-transform:uppercase;
     margin-bottom:15px;
-    display:block
+    display:block;
+    letter-spacing: 1px; /* Adds slight spacing between letters for clarity */
+
 }
 .slider-area .single-slider .slider-cap-wrapper .hero-caption h1{
     font-size:60px;
