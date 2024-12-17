@@ -164,7 +164,7 @@ html {
     rgba(173, 216, 230, 0.1) 50%,    /* Soft light blue with a slight transparency */
     rgba(255, 229, 204, 0) 70%     /* Light white fading again */
 );
-    animation: shine 6s linear 1 forwards, shine-delay 100s linear 1 forwards;
+    animation: shine 3s linear 1 forwards, shine-delay 100s linear 1 forwards;
     animation-delay: 0s;
 }
 
@@ -176,9 +176,6 @@ banner-caption::after {
 @keyframes shine {
     0% {
         left: -100%; /* Start off-screen */
-    }
-    50% {
-        left: 50%; /* Move across to the middle */
     }
     100% {
         left: 100%; /* Finish off-screen */
