@@ -545,14 +545,14 @@ banner-caption::after {
 
 }
 .slider-area .single-slider .slider-cap-wrapper .hero-caption h1{
-    font-size:60px;
+    font-size:30px;
     font-weight:700;
     margin-bottom:14px;
     line-height:1.1;
     display:block;
     color: #024089;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1400px){.slider-area .single-slider .slider-cap-wrapper .hero-caption h1{font-size:56px}}@media only screen and (min-width: 992px) and (max-width: 1199px){.slider-area .single-slider .slider-cap-wrapper .hero-caption h1{font-size:45px;line-height:1.2}}@media only screen and (min-width: 768px) and (max-width: 991px){.slider-area .single-slider .slider-cap-wrapper .hero-caption h1{font-size:30px;line-height:1.2}}@media only screen and (min-width: 576px) and (max-width: 767px){.slider-area .single-slider .slider-cap-wrapper .hero-caption h1{font-size:33px;line-height:1.2;margin-bottom:30px}}@media (max-width: 575px){.slider-area .single-slider .slider-cap-wrapper .hero-caption h1{font-size:23px;line-height:1.2;margin-bottom:25px}}
+@media only screen and (min-width: 1200px) and (max-width: 1400px){.slider-area .single-slider .slider-cap-wrapper .hero-caption h1{font-size:25px}}@media only screen and (min-width: 992px) and (max-width: 1199px){.slider-area .single-slider .slider-cap-wrapper .hero-caption h1{font-size:45px;line-height:1.2}}@media only screen and (min-width: 768px) and (max-width: 991px){.slider-area .single-slider .slider-cap-wrapper .hero-caption h1{font-size:24px;line-height:1.2}}@media only screen and (min-width: 576px) and (max-width: 767px){.slider-area .single-slider .slider-cap-wrapper .hero-caption h1{font-size:22px;line-height:1.2;margin-bottom:30px}}@media (max-width: 575px){.slider-area .single-slider .slider-cap-wrapper .hero-caption h1{font-size:21px;line-height:1.2;margin-bottom:25px}}
 
 .slider-area .single-slider .slider-cap-wrapper .hero-caption p{
     margin-bottom:39px;display:block;
