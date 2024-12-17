@@ -244,7 +244,8 @@ banner-caption::after {
     display: inline-block;
     position: relative;
 }
-.banner-subheading:hover {
+
+.banner-heading:hover {
     color: #FFD700;
     transform: scale(1.05);
 }
